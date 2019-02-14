@@ -1,0 +1,119 @@
+
+
+<head>
+<title>Register page 2:: Student</title>
+</head>
+<style>
+td{
+ padding-left:100px;
+} 
+</style>
+
+<body>
+<!-- ------ -->
+<div class="container container-sm border" style="">
+	<div class="container" >
+	  <header class="container announcement-sm" style="text-align: center;">
+	  <h1>Parent Details</h1>
+	  </header>
+ <hr>
+ 
+<div class="panel-group" id="accordian">
+<!-- start well -->
+<div class="well">
+<fieldset>
+<legend>
+	<p style="text-align:center;color:red;font-family:Lucida Calligraphy;font-size:25px;">
+	<b>Father Details</b></p>
+</legend>
+<form action="RegisterStudent" method="post">
+
+<input type="hidden" name="stu_enroll"  value='' /> 
+<input type="hidden" name="stu_name"  value='' />
+<input type="hidden" name="course"  value='' />
+<input type="hidden" name="branch"  value='' />
+<input type="hidden" name="stu_mobile"  value='' />
+<input type="hidden" name="stu_email"  value='' />
+<input type="hidden" name="sem"  value='' />
+<input type="hidden" name="stu_address"  value='' />
+
+
+<table style="width:80%">
+<tr>
+	<td>
+		<br>
+			<b style="padding-right: 52px;">Father Name :</b> 
+			<input style="" type="text" name="father_name" class="form-control" value="" />
+	</td>
+	<td>
+		<br>
+			<b style="padding-right: 52px;">Father Mobile Number :</b> 
+			<input style="" type="number" name="father_mobile" class="form-control" value="" />
+	</td>
+</tr>
+<tr>
+	<td>
+		<br>
+			<b style="padding-right: 52px;">Father email :</b> 
+			<input style="" type="email" name="father_email" class="form-control" value="" />
+	</td>
+	<td>
+		<br>
+			<b style="padding-right: 52px;">Father Address :</b> 
+			<input style="" type="text" name="father_address" class="form-control" value="" />
+	</td>
+</tr>
+<tr>
+	<td>
+		<br><br>
+		<p style="text-align:center;color:red;font-family:Lucida Calligraphy;font-size:25px;">
+			<b>Local Guardian Details</b>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<br>
+			<b style="padding-right: 52px;">Guardian Name :</b> 
+			<input style="" type="text" name="guardian_name" class="form-control" value="" />
+	</td>
+	<td>
+		<br>
+			<b style="padding-right: 52px;">Guardian Mobile Number :</b> 
+			<input style="" type="number" name="guardian_mobile" class="form-control" value="" />
+	</td>
+</tr>
+<tr>
+	<td>
+		<br>
+			<b style="padding-right: 52px;">Guardian email :</b> 
+			<input style="" type="email" name="guardian_email" class="form-control" value="" />
+	</td>
+	<td>
+		<br>
+			<b style="padding-right: 52px;">Guardian Address :</b> 
+			<input style="" type="text" name="guardian_address" class="form-control" value="" />
+	</td>
+</tr>   
+  
+
+ <tr>
+	<td>
+	<br><br>
+		<input type="reset" value="reset">
+	</td>
+	<td>
+	<br><br>
+	<input type="submit" value="submit" onclick="myfunction();">
+	</td>
+</tr>
+</table>
+</form>
+</fieldset>
+
+</div>
+<!-- end well -->
+</div>
+</div>
+
+</div>
